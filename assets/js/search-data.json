@@ -1,11 +1,22 @@
 {
   
+    
+        "post0": {
+            "title": "De que van los siguientes post(s)",
+            "content": "Esta arquitectura tiene una ventaja sobre lo que era en su momento el estado del arte la RNN y las LSTM Una de las principales ventajas es que el cómputo de las secuencias se hace paralelizable, con los modelos anteriores se procesaba la secuencia en orden, &quot;añadiendo&quot; el conocimiento de los datos ya procesados de uno por uno, en los transformers este computo se ejecuta en paralelo, otra característica de la arquitectura de transformers es la implementación de la autoatención, si bien el mecanismo de atención era algo que ya se usaba en otros contextos y modelos, en este caso hay dos tipos de atención una, combate la longitud variable de las secuencias, la attention mask, esta permite añadir caracteres de padding para normalizar la longitud de las secuencias y le &quot;indica&quot; al modelo que esos caraceteres no son relevantes, por otro lado, tambien tenemos el ya mencionado mecanismo de autoatención cuya finalidad es de cierta forma determinar el parecido o la correspondencia entre palabras, por ejemplificar, la palabra &quot;hola&quot; tendria un alto parecido a la palabra &quot;hello&quot;, pero bajo respecto a la palabra &quot;Queue&quot; . Durante los siguientes post implementaré una versión sencilla de esta arquitectura, la idea es que pueda realizar una tarea de traducción relativamente sencilla, la cual será invertir un patrón de caracteres. Por ejemplo: abcd --&gt; dcba .",
+            "url": "https://josue-arciniega.github.io/Josue-Arciniega-Blog/2021/04/15/Inicio-Transformers.html",
+            "relUrl": "/2021/04/15/Inicio-Transformers.html",
+            "date": " • Apr 15, 2021"
+        }
+        
+    
+  
 
   
   
 
   
-      "page1": {
+      ,"page1": {
           "title": "About Me",
           "content": "Carlos Josué Arciniega Noriega . Aprender… Aprender… Resolver. .",
           "url": "https://josue-arciniega.github.io/Josue-Arciniega-Blog/about/",
